@@ -1,6 +1,6 @@
 ![Screenshot](docs/clearent_logo.jpg)
 
-# Clearent IDTech VP3300 Bluetooth Configuration
+# IDTech VP3300 Bluetooth Configuration
 
 ## Release Notes
 
@@ -10,6 +10,6 @@ VP3300 BT Unencrypted
 
 * Sleep mode is extended to 255 seconds
 
-* Config file name: good_betty03061029
+* [Config File](config/good_betty_03061029.json)
 
 * Firmware file name: VP3300 Bluetooth NEO v1.01.090_USBHID.txt
