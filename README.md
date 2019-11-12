@@ -1,3 +1,5 @@
+![Screenshot](docs/clearent_logo.jpg)
+
 == Clearent IDTech VP3300 Bluetooth Configuration ==
 
 VP3300 BT
