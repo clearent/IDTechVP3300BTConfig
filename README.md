@@ -10,6 +10,6 @@ VP3300 BT Unencrypted
 
 * Sleep mode is extended to 255 seconds
 
-* Config File :config/good_betty_03062019.json
+* Config File: config/good_betty_03062019.json
 
 * Firmware file: firmware/VP3300 Bluetooth NEO v1.01.090_USBHID.txt
