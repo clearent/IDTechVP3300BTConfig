@@ -21,3 +21,9 @@ Added support for contactless
 * Config File: config/winnie_tap_20191120.json
 
 * Firmware file: firmware/VP3300 Bluetooth NEO v1.01.151_USBHID.txt
+
+Date: 12-10-2019
+
+Modified the FFFC tag on the MasterCard contactless configuration group so Apple Card will work.
+
+Config File: config/winnie_tap_20191210.json
