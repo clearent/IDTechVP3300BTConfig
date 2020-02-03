@@ -10,7 +10,7 @@
 
 [Contactless Configuration Willow - 02-03-2019](config/prod/willow_tap_prod_20200203.json) + [Firmware .090](https://github.com/clearent/IDTechVP3300BTConfig/blob/master/firmware/VP3300%20Bluetooth%20NEO%20v1.01.090_USBHID.txt)
 
-:warning: These are compatible only because the framework has extra logic to Address
+:warning: Willow is compatible with firmware version .090 only because the framework has extra logic to address
 an idtech contactless issue. Firmware version .151 is recommended instead.
 
 
