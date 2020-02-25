@@ -4,6 +4,15 @@
 
 :warning: Use configuration files from the config/prod folder when configuring readers to be used in the live environment.
 
+## Firmware capability
+
+[Contactless Configuration Willow - 02-03-2020](config/prod/willow_tap_prod_20200203.json) + [Firmware .151](https://github.com/clearent/IDTechVP3300BTConfig/blob/master/firmware/VP3300%20Bluetooth%20NEO%20v1.01.151_USBHID.txt)
+
+[Contactless Configuration Willow - 02-03-2020](config/prod/willow_tap_prod_20200203.json) + [Firmware .090](https://github.com/clearent/IDTechVP3300BTConfig/blob/master/firmware/VP3300%20Bluetooth%20NEO%20v1.01.090_USBHID.txt)
+
+:warning: Willow is compatible with firmware version .090 only because the framework has extra logic to address
+an idtech contactless issue. Firmware version .151 is recommended instead.
+
 
 ## Release Notes
 
@@ -37,4 +46,4 @@ Date: 12-11-2019
 * Updated the Ca Public keys to be the LIVE keys.
 
 * Prod Config File: config/prod/winnie_tap_prod_20191211.json
-.
+

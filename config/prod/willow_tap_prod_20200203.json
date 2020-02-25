@@ -1,0 +1,334 @@
+{
+  "config_meta": {
+    "type": "device",
+    "production": false,
+    "customer": {
+      "company": "",
+      "contact": "",
+      "id": 0
+    },
+    "id": 0,
+    "notes": "This profile was automatically generated from Device VP3300 BT, with Serial Number 911T554997, on 02/03/2020 11:55:04 UTC. Firmware Version = VP3300 Bluetooth NEO v1.01.151.",
+    "version": "2.0.0",
+    "terminal_type": "VP3300 BT",
+    "hash": "e5ab110e3f67868aa8454cce07311130574cd51bb392cc612b8cb469b0455079"
+  },
+  "hardware": {
+    "product_type": "553334",
+    "processor_type": "ARM Cortex-M4/ K21 Family",
+    "hardware_ver": "HW,VP3300 Bluetooth\r\nK21F Rev9",
+    "serial_num": "911T554997",
+    "mcu_uid": "00000d0091b1f8a85343454e25001330",
+    "contactless_available": true
+  },
+  "general_configuration": {
+    "contact": {
+      "capk": [
+        {
+          "name": "a00000000392",
+          "hash_algorithm": "01",
+          "encryption_algorithm": "01",
+          "hash_value": "429c954a3859cef91295f663c963e582ed6eb253",
+          "exponent": "00000003",
+          "modulus_length": "b000",
+          "modulus": "996af56f569187d09293c14810450ed8ee3357397b18a2458efaa92da3b6df6514ec060195318fd43be9b8f0cc669e3f844057cbddf8bda191bb64473bc8dc9a730db8f6b4ede3924186ffd9b8c7735789c23a36ba0b8af65372eb57ea5d89e7d14e9c7b6b557460f10885da16ac923f15af3758f0f03ebd3c5c2c949cba306db44e6a2c076c5f67e281d7ef56785dc4d75945e491f01918800a9e2dc66f60080566ce0daf8d17ead46ad8e30a247c9f"
+        },
+        {
+          "name": "a00000000394",
+          "hash_algorithm": "01",
+          "encryption_algorithm": "01",
+          "hash_value": "c4a3c43ccf87327d136b804160e47d43b60e6e0f",
+          "exponent": "00000003",
+          "modulus_length": "f800",
+          "modulus": "acd2b12302ee644f3f835abd1fc7a6f62cce48ffec622aa8ef062bef6fb8ba8bc68bbf6ab5870eed579bc3973e121303d34841a796d6dcbc41dbf9e52c4609795c0ccf7ee86fa1d5cb041071ed2c51d2202f63f1156c58a92d38bc60bdf424e1776e2bc9648078a03b36fb554375fc53d57c73f5160ea59f3afc5398ec7b67758d65c9bff7828b6b82d4be124a416ab7301914311ea462c19f771f31b3b57336000dff732d3b83de07052d730354d297bec72871dccf0e193f171aba27ee464c6a97690943d59bdabb2a27eb71ceebdafa1176046478fd62fec452d5ca393296530aa3f41927adfe434a2df2ae3054f8840657a26e0fc617"
+        },
+        {
+          "name": "a000000004ef",
+          "hash_algorithm": "01",
+          "encryption_algorithm": "01",
+          "hash_value": "21766ebb0ee122afb65d7845b73db46bab65427a",
+          "exponent": "00000003",
+          "modulus_length": "f800",
+          "modulus": "a191cb87473f29349b5d60a88b3eaee0973aa6f1a082f358d849fddff9c091f899eda9792caf09ef28f5d22404b88a2293eebbc1949c43bea4d60cfd879a1539544e09e0f09f60f065b2bf2a13ecc705f3d468b9d33ae77ad9d3f19ca40f23dcf5eb7c04dc8f69eba565b1ebcb4686cd274785530ff6f6e9ee43aa43fdb02ce00daec15c7b8fd6a9b394baba419d3f6dc85e16569be8e76989688efea2df22ff7d35c043338deaa982a02b866de5328519ebbcd6f03cdd686673847f84db651ab86c28cf1462562c577b853564a290c8556d818531268d25cc98a4cc6a0bdfffda2dcca3a94c998559e307fddf915006d9a987b07ddaeb3b"
+        },
+        {
+          "name": "a000000004f1",
+          "hash_algorithm": "01",
+          "encryption_algorithm": "01",
+          "hash_value": "d8e68da167ab5a85d8c3d55ecb9b0517a1a5b4bb",
+          "exponent": "00000003",
+          "modulus_length": "b000",
+          "modulus": "a0dcf4bde19c3546b4b6f0414d174dde294aabbb828c5a834d73aae27c99b0b053a90278007239b6459ff0bbcd7b4b9c6c50ac02ce91368da1bd21aaeadbc65347337d89b68f5c99a09d05be02dd1f8c5ba20e2f13fb2a27c41d3f85cad5cf6668e75851ec66edbf98851fd4e42c44c1d59f5984703b27d5b9f21b8fa0d93279fbbf69e090642909c9ea27f898959541aa6757f5f624104f6e1d3a9532f2a6e51515aead1b43b3d7835088a2fafa7be7"
+        },
+        {
+          "name": "a000000025c9",
+          "hash_algorithm": "01",
+          "encryption_algorithm": "01",
+          "hash_value": "8e8dff443d78cd91de88821d70c98f0638e51e49",
+          "exponent": "00000003",
+          "modulus_length": "b000",
+          "modulus": "b362db5733c15b8797b8ecee55cb1a371f760e0bedd3715bb270424fd4ea26062c38c3f4aaa3732a83d36ea8e9602f6683eecc6baff63dd2d49014bde4d6d603cd744206b05b4bad0c64c63ab3976b5c8caaf8539549f5921c0b700d5b0f83c4e7e946068baaab5463544db18c63801118f2182efcc8a1e85e53c2a7ae839a5c6a3cabe73762b70d170ab64afc6ca482944902611fb0061e09a67acb77e493d998a0ccf93d81a4f6c0dc6b7df22e62db"
+        },
+        {
+          "name": "a000000025ca",
+          "hash_algorithm": "01",
+          "encryption_algorithm": "01",
+          "hash_value": "6bda32b1aa171444c7e8f88075a74fbfe845765f",
+          "exponent": "00000003",
+          "modulus_length": "f800",
+          "modulus": "c23ecbd7119f479c2ee546c123a585d697a7d10b55c2d28bef0d299c01dc65420a03fe5227ecdecb8025fbc86eebc1935298c1753ab849936749719591758c315fa150400789bb14fadd6eae2ad617da38163199d1bad5d3f8f6a7a20aef420adfe2404d30b219359c6a4952565ccca6f11ec5be564b49b0ea5bf5b3dc8c5c6401208d0029c3957a8c5922cbde39d3a564c6debb6bd2aef91fc27bb3d3892beb9646dce2e1ef8581effa712158aaec541c0bbb4b3e279d7da54e45a0acc3570e712c9f7cdf985cfafd382ae13a3b214a9e8e1e71ab1ea707895112abc3a97d0fcb0ae2ee5c85492b6cfd54885cdd6337e895cc70fb3255e3"
+        },
+        {
+          "name": "a00000006511",
+          "hash_algorithm": "01",
+          "encryption_algorithm": "01",
+          "hash_value": "d9fd62c9dd4e6de7741e9a17fb1ff2c5db948bcb",
+          "exponent": "00000003",
+          "modulus_length": "b000",
+          "modulus": "a2583aa40746e3a63c22478f576d1efc5fb046135a6fc739e82b55035f71b09beb566edb9968dd649b94b6dedc033899884e908c27be1cd291e5436f762553297763daa3b890d778c0f01e3344cecdfb3ba70d7e055b8c760d0179a403d6b55f2b3b083912b183adb7927441bed3395a199eefe0debd1f5fc3264033da856f4a8b93916885bd42f9c1f456aab8cfa83ac574833eb5e87bb9d4c006a4b5346bd9e17e139ab6552d9c58bc041195336485"
+        },
+        {
+          "name": "a0000001525c",
+          "hash_algorithm": "01",
+          "encryption_algorithm": "01",
+          "hash_value": "60154098cbba350f5f486ca31083d1fc474e31f8",
+          "exponent": "00000003",
+          "modulus_length": "b000",
+          "modulus": "833f275fcf5ca4cb6f1bf880e54dcfeb721a316692cafeb28b698caecafa2b2d2ad8517b1efb59ddefc39f9c3b33ddee40e7a63c03e90a4dd261bc0f28b42ea6e7a1f307178e2d63fa1649155c3a5f926b4c7d7c258bca98ef90c7f4117c205e8e32c45d10e3d494059d2f2933891b979ce4a831b301b0550cdae9b67064b31d8b481b85a5b046be8ffa7bdb58dc0d7032525297f26ff619af7f15bcec0c92bcdcbc4fb207d115aa65cd04c1cf982191"
+        },
+        {
+          "name": "a0000001525d",
+          "hash_algorithm": "01",
+          "encryption_algorithm": "01",
+          "hash_value": "b51ec5f7de9bb6d8bce8fb5f69ba57a04221f39b",
+          "exponent": "00000003",
+          "modulus_length": "f800",
+          "modulus": "ad938ea9888e5155f8cd272749172b3a8c504c17460efa0bed7cbc5fd32c4a80fd810312281b5a35562800cdc325358a9639c501a537b7ae43df263e6d232b811acdb6dde979d55d6c911173483993a423a0a5b1e1a70237885a241b8eebb5571e2d32b41f9cc5514df83f0d69270e109af1422f985a52cce04f3df269b795155a68ad2d6b660ddcd759f0a5da7b64104d22c2771ece7a5ffd40c774e441379d1132faf04cdf55b9504c6dce9f61776d81c7c45f19b9efb3749ac7d486a5ad2e781fa9d082fb2677665b99fa5f1553135a1fd2a2a9fbf625ca84a7d736521431178f13100a2516f9a43ce095b032b886c7a6ab126e203be7"
+        },
+        {
+          "name": "a00000033309",
+          "hash_algorithm": "01",
+          "encryption_algorithm": "01",
+          "hash_value": "a075306eab0045baf72cdd33b3b678779de1f527",
+          "exponent": "00000003",
+          "modulus_length": "b000",
+          "modulus": "eb374dfc5a96b71d2863875eda2eafb96b1b439d3ece0b1826a2672eeefa7990286776f8bd989a15141a75c384dfc14fef9243aab32707659be9e4797a247c2f0b6d99372f384af62fe23bc54bcdc57a9acd1d5585c303f201ef4e8b806afb809db1a3db1cd112ac884f164a67b99c7d6e5a8a6df1d3cae6d7ed3d5be725b2de4ade23fa679bf4eb15a93d8a6e29c7ffa1a70de2e54f593d908a3bf9ebbd760bbfdc8db8b54497e6c5be0e4a4dac29e5"
+        },
+        {
+          "name": "a0000003330b",
+          "hash_algorithm": "01",
+          "encryption_algorithm": "01",
+          "hash_value": "bd331f9996a490b33c13441066a09ad3feb5f66c",
+          "exponent": "00000003",
+          "modulus_length": "f800",
+          "modulus": "cf9fdf46b356378e9af311b0f981b21a1f22f250fb11f55c958709e3c7241918293483289eae688a094c02c344e2999f315a72841f489e24b1ba0056cfab3b479d0e826452375dcdbb67e97ec2aa66f4601d774feaef775accc621bfeb65fb0053fc5f392aa5e1d4c41a4de9ffdfdf1327c4bb874f1f63a599ee3902fe95e729fd78d4234dc7e6cf1ababaa3f6db29b7f05d1d901d2e76a606a8cbffffecbd918fa2d278bdb43b0434f5d45134be1c2781d157d501ff43e5f1c470967cd57ce53b64d82974c8275937c5d8502a1252a8a5d6088a259b694f98648d9af2cb0efd9d943c69f896d49fa39702162acb5af29b90bade005bc157"
+        }
+      ],
+      "aid": [
+        {
+          "name": "a0000000031010",
+          "value": "9f0607a00000000310109f090200969f1a0208409f1b0400000000df1305584000a800df14050010000000df1505584004f800dfee150101"
+        },
+        {
+          "name": "a0000000032010",
+          "value": "9f0607a00000000320109f090200969f1a0208409f1b0400000000df1305584000a800df14050010000000df1505584004f800dfee150101"
+        },
+        {
+          "name": "a0000000041010",
+          "value": "9f0607a00000000410109f090200029f1a0208409f1b0400000000df1305fe50808000df14050000000000df1505fe50808000dfee150101"
+        },
+        {
+          "name": "a00000002501",
+          "value": "9f0606a000000025019f090200019f1a0208409f1b0400000000df13051000002000df14050010000000df150530e09cf800dfee150101"
+        },
+        {
+          "name": "a0000000651010",
+          "value": "9f0607a00000006510109f090202009f1a0208409f1b0400000000df1305fc60242800df14050010000000df150530e09cf800dfee150101"
+        },
+        {
+          "name": "a0000001523010",
+          "value": "9f0607a00000015230109f090200019f1a0208409f1b0400000000df1305dc00002000df14050010000000df1505fce09cf800dfee150101"
+        },
+        {
+          "name": "a000000333010102",
+          "value": "9f0608a0000003330101029f1a0208409f1b0400000000df1305d84004f800df14050010000000df1505d84004f800dfee150101"
+        },
+        {
+          "name": "a000000333010103",
+          "value": "9f0608a0000003330101039f1a0208409f1b0400000000df1305d84004f800df14050010000000df1505d84004f800dfee150101"
+        }
+      ],
+      "terminal_ics_type": "5C",
+      "terminal_data": "5f3601029f150212349f160f3030303030303030303030303030309f1a0208409f1c0838373635343332319f1e085465726d696e616c9f33036028c89f3501219f4005f000f0a0019f4e0150df1008656e667265737a68df110100df260101df270100dfee150101dfee160100dfee170105dfee180180dfee1b083030303130353030dfee1e08d08c20d0c41e1400dfee1f0180dfee20013cdfee21010adfee2203323c3c"
+    },
+    "contactless": {
+      "capk": [
+        {
+          "name": "a00000000392",
+          "hash_algorithm": "01",
+          "encryption_algorithm": "01",
+          "hash_value": "429c954a3859cef91295f663c963e582ed6eb253",
+          "exponent": "00000003",
+          "modulus_length": "b000",
+          "modulus": "996af56f569187d09293c14810450ed8ee3357397b18a2458efaa92da3b6df6514ec060195318fd43be9b8f0cc669e3f844057cbddf8bda191bb64473bc8dc9a730db8f6b4ede3924186ffd9b8c7735789c23a36ba0b8af65372eb57ea5d89e7d14e9c7b6b557460f10885da16ac923f15af3758f0f03ebd3c5c2c949cba306db44e6a2c076c5f67e281d7ef56785dc4d75945e491f01918800a9e2dc66f60080566ce0daf8d17ead46ad8e30a247c9f"
+        },
+        {
+          "name": "a00000000394",
+          "hash_algorithm": "01",
+          "encryption_algorithm": "01",
+          "hash_value": "c4a3c43ccf87327d136b804160e47d43b60e6e0f",
+          "exponent": "00000003",
+          "modulus_length": "f800",
+          "modulus": "acd2b12302ee644f3f835abd1fc7a6f62cce48ffec622aa8ef062bef6fb8ba8bc68bbf6ab5870eed579bc3973e121303d34841a796d6dcbc41dbf9e52c4609795c0ccf7ee86fa1d5cb041071ed2c51d2202f63f1156c58a92d38bc60bdf424e1776e2bc9648078a03b36fb554375fc53d57c73f5160ea59f3afc5398ec7b67758d65c9bff7828b6b82d4be124a416ab7301914311ea462c19f771f31b3b57336000dff732d3b83de07052d730354d297bec72871dccf0e193f171aba27ee464c6a97690943d59bdabb2a27eb71ceebdafa1176046478fd62fec452d5ca393296530aa3f41927adfe434a2df2ae3054f8840657a26e0fc617"
+        },
+        {
+          "name": "a000000004ef",
+          "hash_algorithm": "01",
+          "encryption_algorithm": "01",
+          "hash_value": "21766ebb0ee122afb65d7845b73db46bab65427a",
+          "exponent": "00000003",
+          "modulus_length": "f800",
+          "modulus": "a191cb87473f29349b5d60a88b3eaee0973aa6f1a082f358d849fddff9c091f899eda9792caf09ef28f5d22404b88a2293eebbc1949c43bea4d60cfd879a1539544e09e0f09f60f065b2bf2a13ecc705f3d468b9d33ae77ad9d3f19ca40f23dcf5eb7c04dc8f69eba565b1ebcb4686cd274785530ff6f6e9ee43aa43fdb02ce00daec15c7b8fd6a9b394baba419d3f6dc85e16569be8e76989688efea2df22ff7d35c043338deaa982a02b866de5328519ebbcd6f03cdd686673847f84db651ab86c28cf1462562c577b853564a290c8556d818531268d25cc98a4cc6a0bdfffda2dcca3a94c998559e307fddf915006d9a987b07ddaeb3b"
+        },
+        {
+          "name": "a000000004f1",
+          "hash_algorithm": "01",
+          "encryption_algorithm": "01",
+          "hash_value": "d8e68da167ab5a85d8c3d55ecb9b0517a1a5b4bb",
+          "exponent": "00000003",
+          "modulus_length": "b000",
+          "modulus": "a0dcf4bde19c3546b4b6f0414d174dde294aabbb828c5a834d73aae27c99b0b053a90278007239b6459ff0bbcd7b4b9c6c50ac02ce91368da1bd21aaeadbc65347337d89b68f5c99a09d05be02dd1f8c5ba20e2f13fb2a27c41d3f85cad5cf6668e75851ec66edbf98851fd4e42c44c1d59f5984703b27d5b9f21b8fa0d93279fbbf69e090642909c9ea27f898959541aa6757f5f624104f6e1d3a9532f2a6e51515aead1b43b3d7835088a2fafa7be7"
+        },
+        {
+          "name": "a000000025c9",
+          "hash_algorithm": "01",
+          "encryption_algorithm": "01",
+          "hash_value": "8e8dff443d78cd91de88821d70c98f0638e51e49",
+          "exponent": "00000003",
+          "modulus_length": "b000",
+          "modulus": "b362db5733c15b8797b8ecee55cb1a371f760e0bedd3715bb270424fd4ea26062c38c3f4aaa3732a83d36ea8e9602f6683eecc6baff63dd2d49014bde4d6d603cd744206b05b4bad0c64c63ab3976b5c8caaf8539549f5921c0b700d5b0f83c4e7e946068baaab5463544db18c63801118f2182efcc8a1e85e53c2a7ae839a5c6a3cabe73762b70d170ab64afc6ca482944902611fb0061e09a67acb77e493d998a0ccf93d81a4f6c0dc6b7df22e62db"
+        },
+        {
+          "name": "a000000025ca",
+          "hash_algorithm": "01",
+          "encryption_algorithm": "01",
+          "hash_value": "6bda32b1aa171444c7e8f88075a74fbfe845765f",
+          "exponent": "00000003",
+          "modulus_length": "f800",
+          "modulus": "c23ecbd7119f479c2ee546c123a585d697a7d10b55c2d28bef0d299c01dc65420a03fe5227ecdecb8025fbc86eebc1935298c1753ab849936749719591758c315fa150400789bb14fadd6eae2ad617da38163199d1bad5d3f8f6a7a20aef420adfe2404d30b219359c6a4952565ccca6f11ec5be564b49b0ea5bf5b3dc8c5c6401208d0029c3957a8c5922cbde39d3a564c6debb6bd2aef91fc27bb3d3892beb9646dce2e1ef8581effa712158aaec541c0bbb4b3e279d7da54e45a0acc3570e712c9f7cdf985cfafd382ae13a3b214a9e8e1e71ab1ea707895112abc3a97d0fcb0ae2ee5c85492b6cfd54885cdd6337e895cc70fb3255e3"
+        },
+        {
+          "name": "a0000001525c",
+          "hash_algorithm": "01",
+          "encryption_algorithm": "01",
+          "hash_value": "60154098cbba350f5f486ca31083d1fc474e31f8",
+          "exponent": "00000003",
+          "modulus_length": "b000",
+          "modulus": "833f275fcf5ca4cb6f1bf880e54dcfeb721a316692cafeb28b698caecafa2b2d2ad8517b1efb59ddefc39f9c3b33ddee40e7a63c03e90a4dd261bc0f28b42ea6e7a1f307178e2d63fa1649155c3a5f926b4c7d7c258bca98ef90c7f4117c205e8e32c45d10e3d494059d2f2933891b979ce4a831b301b0550cdae9b67064b31d8b481b85a5b046be8ffa7bdb58dc0d7032525297f26ff619af7f15bcec0c92bcdcbc4fb207d115aa65cd04c1cf982191"
+        },
+        {
+          "name": "a0000001525d",
+          "hash_algorithm": "01",
+          "encryption_algorithm": "01",
+          "hash_value": "b51ec5f7de9bb6d8bce8fb5f69ba57a04221f39b",
+          "exponent": "00000003",
+          "modulus_length": "f800",
+          "modulus": "ad938ea9888e5155f8cd272749172b3a8c504c17460efa0bed7cbc5fd32c4a80fd810312281b5a35562800cdc325358a9639c501a537b7ae43df263e6d232b811acdb6dde979d55d6c911173483993a423a0a5b1e1a70237885a241b8eebb5571e2d32b41f9cc5514df83f0d69270e109af1422f985a52cce04f3df269b795155a68ad2d6b660ddcd759f0a5da7b64104d22c2771ece7a5ffd40c774e441379d1132faf04cdf55b9504c6dce9f61776d81c7c45f19b9efb3749ac7d486a5ad2e781fa9d082fb2677665b99fa5f1553135a1fd2a2a9fbf625ca84a7d736521431178f13100a2516f9a43ce095b032b886c7a6ab126e203be7"
+        }
+      ],
+      "aids": [
+        {
+          "name": "a0000000031010",
+          "value": "9f0607a0000000031010ffe10101ffe20106ffe30114ffe40100ffe50110"
+        },
+        {
+          "name": "a0000000032010",
+          "value": "9f0607a0000000032010ffe10101ffe20106ffe30114ffe40100ffe50110"
+        },
+        {
+          "name": "a0000000041010",
+          "value": "9f0607a0000000041010ffe10101ffe20103ffe30174ffe40101ffe50110ffe90c020001022001020101020901ffea0102"
+        },
+        {
+          "name": "a00000002501",
+          "value": "9f0606a00000002501ffe10101ffe20102ffe40102ffe50110"
+        },
+        {
+          "name": "a0000001523010",
+          "value": "9f0607a0000001523010ffe10101ffe2010dffe40103ffe50110"
+        },
+        {
+          "name": "a0000003241010",
+          "value": "9f0607a0000003241010ffe10101ffe2010dffe40103ffe50110"
+        },
+        {
+          "name": "a000000476d0000111",
+          "value": "9f0609a000000476d0000111ffe10101ffe20117ffe4018effe50110"
+        }
+      ],
+      "configuration_groups": [
+        {
+          "group": 0,
+          "data": "5f2a0208405f3601029a032001249c01009f02060000000000109f03060000000000009f090200969f150200009f160f0000000000000000000000000000009f1a0208409f1b04000000009f1c0800000000000000009f21031210119f33036028c89f3501219f400560000010019f4104000010789f4e2231303732312057616c6b65722053742e20437970726573732c204341202c5553412e9f5301529f6604320040009f7c140000000000000000000000000000000000000000df640100df650100df660100df680100df6a0101df7503003000df7c0100df7d0101df7f0100df891b0101dfed490100dfee3a020000dfef4b0312b600dfef6e020d0ddfef6f0130ffee1d0504042a0c31ffee200205dcfff003020000fff106000000100000fff2085465726d696e616cfff30207fffff403010703fff506000000050000fff70100fff80103fff90103fffa020000fffb0100fffd05584004f800fffe05584000a800ffff050000000000"
+        },
+        {
+          "group": 1,
+          "data": "5f2a0208405f3601029a03ffffff9c01009f03060000000000009f090200029f150258129f1a0208409f1b04000000009f1c0800000000000000009f1d082c280000000000009f2103ffffff9f33036008c89f3501219f3901079f400560000010019f5301529f6d01809f7c1400000000000000000000000000000000000000009f7e0103df28030008c8df29030020c8df811a039f6a04df811e0110df812406000999999999df812506000999999999df812c01f0fff106000000100000fff2083030303030303030fff506000000050000fffc0104fffd05f45084800cfffe05f45084800cffff050000000000"
+        },
+        {
+          "group": 2,
+          "data": "5f2a0208409c01009f03060000000000009f090200019f1a0208409f1b04000000009f330360a8c89f3501219f6e04d8bc0800df2803600808df290360a808df510180df7f0102ffee1c040000003cfff106000000100000fff506000000050000fff80103fffc0104fffd05de00fc9800fffe05dc50fc9800ffff050010000000"
+        },
+        {
+          "group": 3,
+          "data": "5f2a0208409f090200019f1a0208409f1b04000000009f33036028c89f3501229f6604b2004000df740100fff106000000100000fff403010703fff506000000050000"
+        }
+      ]
+    },
+    "terminal_info": {
+      "module_ver_info": [
+        "FW,NEO v1.01,,",
+        " FS&DB V1.00,,",
+        " CL AppSel,PPSE Module, v1.00,,",
+        " CL AID,MasterCard PayPass M/Chip v3.0.3, v1.00,,",
+        " CL AID,Visa VCPS 2.1.3, v1.00,,",
+        " CL AID,Amex ExpressPay 3.0, v1.00,,",
+        " CL AID,Discover DPAS 1.0 Zip 3.1.2, v1.00,,",
+        " CL AID,Interac 1.5, v1.00,,",
+        " CL L1,EMV 2.4, v1.00,,",
+        " CL AppSpe,AndroidPay SmartTap, v2.1,,",
+        " CL AppSpe,ApplePay VAS, v1.0.10,,",
+        " CT L1,EMV 4.3, v1.00,,",
+        " CT L2,EMV 4.3, v1.00\u0000"
+      ],
+      "firmware_ver": "VP3300 Bluetooth NEO v1.01.151",
+      "contact_emv_kernel_ver": "EMV Common L2 V1.10",
+      "contact_emv_kernel_checksum": "8d9395c588f2dec9ae9dc8bb7b9841a3525711c6",
+      "contact_emv_kernel_configuration_checksum": "ffffffffffffffffffffffffffffffffffffffff",
+      "usb_bootloader_version": "56503333303020426c7565746f6f74682d424c2d56332e30302e303133",
+      "quickchip_mode": "01",
+      "mode": "HID"
+    },
+    "terminal_user_interface": {
+      "beeper": {
+        "enabled": "true"
+      }
+    },
+    "encryption": {
+      "crl": {
+        "crl_data": "a000009999f1112233,a000009999f2123456"
+      }
+    }
+  },
+  "transaction": {
+    "setting": {
+      "cash_transaction_reader_risk_parameters": "9f6604a0004000fff403010d03fff106000000002000fff5060000000015009f1b04000005dc",
+      "reader_drl_parameters": "019f5a00fff403000000fff106000000000000fff5060000000000009f1b0400000000"
+    },
+    "log": {},
+    "exception_list": {
+      "exception_data": []
+    },
+    "whitelist": ""
+  }
+}
